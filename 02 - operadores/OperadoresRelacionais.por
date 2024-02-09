@@ -14,9 +14,13 @@ programa
 	g = 18
 	m = 9 
 
-	escreva("Testando os operadores relacionais com os valores: ", g, "e", m)
-	escreva("\n G é maior do que m?", g>m)
-		
+	escreva("Testando os operadores relacionais com os valores: ", g, " e ", m)
+	escreva("\n g é maior do que m? ", g>m)
+	escreva("\n m é maior do que g? ", g<m)
+	escreva("\n m é diferente de g? ", m!=g)
+	escreva("\n m é igual a g? ", m==g)
+
+	
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -24,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 313; 
+ * @POSICAO-CURSOR = 418; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
