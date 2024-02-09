@@ -18,13 +18,13 @@ programa
 		inteiro qtd_coxinha, qtd_refri, qtd_sobremesa
 		real tot_coxinha, tot_refri, tot_sobremesa, tot_total
 
-		escreva("Quantas coxinhas você deseja?")
+		escreva("Quantas coxinhas você deseja? ")
 		leia(qtd_coxinha)
 
-		escreva("Quantos refrigerantes você deseja?")
+		escreva("Quantos refrigerantes você deseja? ")
 		leia(qtd_refri)
 
-		escreva("Quantas sobremesas você deseja?")
+		escreva("Quantas sobremesas você deseja? ")
 		leia(qtd_sobremesa)
 
 		/*
@@ -46,7 +46,7 @@ programa
 		escreva("Você comprou: ", qtd_coxinha, " coxinhas.\n")
 		escreva("Você comprou: ", qtd_refri, " refrigerantes.\n")
 		escreva("Você comprou: ", qtd_sobremesa, " sobremesa.\n")
-		escreva("============================================\n")
+		escreva("========================================\n")
 		escreva("Total da compra: R$",tot_total, "\n")
 		
 		
@@ -57,7 +57,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1299; 
+ * @POSICAO-CURSOR = 410; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
