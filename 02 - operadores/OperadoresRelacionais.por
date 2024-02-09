@@ -1,18 +1,21 @@
+//Os operadores relacionados em Portugol são: >, <, >=, <=, !=, ==
+
+//Algoritmo: Operadores
+//@Luana Oliveira
+//09/02/2024
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro anoatual, data, sub
+	
+	inteiro g,m // Declaração de variaveis
 
-		anoatual = 2024
+	g = 18
+	m = 9 
 
-		escreva("Digite seu ano de nascimento: ")
-		leia(data)
-
-		sub = anoatual- data
-
-		escreva("Sua idade é: ",sub)
+	escreva("Testando os operadores relacionais com os valores: ", g, "e", m)
+	escreva("\n G é maior do que m?", g>m)
 		
 	}
 }
@@ -21,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 168; 
+ * @POSICAO-CURSOR = 313; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
