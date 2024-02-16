@@ -1,8 +1,8 @@
+
 /*
  * Algoríritmo: Idade
  * Autor: @Luana Oliveira
  * 16/02/2024
-
 */
 
 
@@ -16,20 +16,17 @@ programa
 		escreva("Digite a sua idade: \n")
 		leia(idade)
 
-		se (idade<12)
+		se (idade<18)
 		{
-			escreva("VOCÊ É UM FRALDINHA!!!")
+			escreva("Você é di menor")
 		}
 
-		se (idade>=12 e idade<18)
+		senao 
 		{
-			escreva("Você JÁ PODE tomar toddynho :) ")
+			escreva("Você já pode ir no bloquinho de carnaval")
 		}
 
-		se (idade>=18)
-		{
-			escreva("Você é de maior!")
-		}
+		
 
 		
 	}
@@ -39,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 381; 
+ * @POSICAO-CURSOR = 292; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
