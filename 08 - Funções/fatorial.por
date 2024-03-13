@@ -3,15 +3,15 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro n = 4
-		escreva("O fatorial de ", n," é ", fatorial(n), "\n" )
+		inteiro n = 7
+		//escreva("O fatorial de ", n," é ", fatorial(n), "\n" )
+		escreva ("O fatorial de ",n," usando fatorial2() é ", fatorial2(n), "\n" )
 	}
 	funcao inteiro fatorial (inteiro n)
-		{
+	{
 		inteiro i = n
 		inteiro resultado = 1
 		enquanto (i > 0)
-		
 		{
 			resultado = resultado * i
 			i--
@@ -20,7 +20,10 @@ programa
 	}
 	funcao inteiro fatorial2(inteiro n)
 	{
-		retorne n * (n - 1)
+		se (n == 1 ou n == 0)
+		{
+			retorne n * fatorial2(n - 1) // recursividade	
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -28,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 346; 
+ * @POSICAO-CURSOR = 291; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
